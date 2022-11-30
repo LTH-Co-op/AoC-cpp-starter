@@ -9,6 +9,11 @@ Before you start installing things, check what you have:
 ```
 
 ## How to use
+You only have to run this once:
+```shell
+scripts/gen.sh
+```
+
 Prepare a problem for a day with:
 ```shell
 scripts/prepare.sh [day_number]
