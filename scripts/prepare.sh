@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# make sure directories exists
+mkdir cmake
+mkdir src
+mkdir input
 
 # Add executable to CMakeLists.txt
 cat <<EOT > cmake/day_$1.cmake
